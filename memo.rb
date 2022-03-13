@@ -26,8 +26,8 @@ end
 memos = []
 while true #無制限にループする
   puts "【モードを選択】"
-  puts "[show]メモを確認"
-  puts "[add]メモを追加"
+  puts "【show】メモの詳細を確認します"
+  puts "【add】メモを追加します"
   print "[show]または[add]を入力して下さい→" #printにする事で改行を防ぐ
   mode = gets.chomp
   if mode == "add"
